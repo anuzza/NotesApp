@@ -1,5 +1,3 @@
-const fs = require("fs");
-fs.appendFileSync("notes.txt", " I am from Nepal.");
-//fs.writeFileSync("notes.txt", "My name is Anuja.");
+const add = require("./utils");
 
-//Challenge: Append a message to notes.txt
+console.log(add(4, -2));
